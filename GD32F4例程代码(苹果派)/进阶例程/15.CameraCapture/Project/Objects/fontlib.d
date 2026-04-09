@@ -1,0 +1,10 @@
+.\objects\fontlib.o: ..\App\FontLib\FontLib.c
+.\objects\fontlib.o: ..\App\FontLib\FontLib.h
+.\objects\fontlib.o: ..\App\DataType\DataType.h
+.\objects\fontlib.o: ..\App\GD25QXX\GD25QXX.h
+.\objects\fontlib.o: ..\TPSW\FatFs\src\ff.h
+.\objects\fontlib.o: ..\TPSW\FatFs\src\integer.h
+.\objects\fontlib.o: ..\TPSW\FatFs\src\ffconf.h
+.\objects\fontlib.o: ..\TPSW\FatFs\src\diskio.h
+.\objects\fontlib.o: ..\App\Malloc\Malloc.h
+.\objects\fontlib.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,9 @@
+.\objects\tcpip.o: ..\TPSW\LWIP\lwip-1.4.1\src\api\tcpip.c
+.\objects\tcpip.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\tcpip.o: ..\TPSW\LWIP\lwip_app\LWIPComm\lwipopts.h
+.\objects\tcpip.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/debug.h
+.\objects\tcpip.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/arch.h
+.\objects\tcpip.o: ..\TPSW\LWIP\arch/cc.h
+.\objects\tcpip.o: ..\TPSW\LWIP\arch/cpu.h
+.\objects\tcpip.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\tcpip.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/opt.h

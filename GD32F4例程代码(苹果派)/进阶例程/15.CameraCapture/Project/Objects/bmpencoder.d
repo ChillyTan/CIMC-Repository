@@ -1,0 +1,10 @@
+.\objects\bmpencoder.o: ..\App\Picture\BMPEncoder.c
+.\objects\bmpencoder.o: ..\App\Picture\BMPEncoder.h
+.\objects\bmpencoder.o: ..\App\DataType\DataType.h
+.\objects\bmpencoder.o: ..\TPSW\FatFs\src\ff.h
+.\objects\bmpencoder.o: ..\TPSW\FatFs\src\integer.h
+.\objects\bmpencoder.o: ..\TPSW\FatFs\src\ffconf.h
+.\objects\bmpencoder.o: ..\TPSW\FatFs\src\diskio.h
+.\objects\bmpencoder.o: ..\App\Malloc\Malloc.h
+.\objects\bmpencoder.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bmpencoder.o: ..\App\TLILCD\TLILCD.h

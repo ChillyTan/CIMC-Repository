@@ -1,0 +1,10 @@
+.\objects\guiterminal.o: ..\App\EmbGUI\Module\GUITerminal.c
+.\objects\guiterminal.o: ..\App\EmbGUI\Module\GUITerminal.h
+.\objects\guiterminal.o: ..\App\DataType\DataType.h
+.\objects\guiterminal.o: ..\App\EmbGUI\Widget\TerminalWidget.h
+.\objects\guiterminal.o: ..\App\EmbGUI\Platform\GUIConf.h
+.\objects\guiterminal.o: ..\App\EmbGUI\Platform\GUIPlatform.h
+.\objects\guiterminal.o: ..\App\TLILCD\TLILCD.h
+.\objects\guiterminal.o: ..\App\Picture\JPEG.h
+.\objects\guiterminal.o: ..\App\Picture\Bmp.h
+.\objects\guiterminal.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

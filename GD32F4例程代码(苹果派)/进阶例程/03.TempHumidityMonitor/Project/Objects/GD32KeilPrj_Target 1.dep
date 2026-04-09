@@ -1,0 +1,1939 @@
+Dependencies for Project 'GD32KeilPrj', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\App\Main\Main.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\App\Main\Main.h)(0x61BC746A)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\ARM\SysTick\SysTick.h)(0x62FA4522)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\HW\RCU\RCU.h)(0x62FA44F3)
+I (..\ARM\NVIC\NVIC.h)(0x62FA44F4)
+I (..\HW\Timer\Timer.h)(0x62FA44F3)
+I (..\HW\UART0\UART0.h)(0x62FA44F3)
+I (..\App\LED\LED.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\HW\SDRAM\SDRAM.h)(0x6289DF43)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+I (..\App\Picture\JPEG.h)(0x62FA44F4)
+I (..\App\Picture\BMP.h)(0x62FA44F4)
+I (..\App\Touch\Touch.h)(0x62FA44F4)
+I (..\HW\ADC\ADC.h)(0x62FA44F3)
+I (..\App\InTemp\InTemp.h)(0x62FA44F4)
+I (..\App\SHT20\SHT20.h)(0x62FA44F4)
+I (..\App\TempHumidityTop\TempHumidityTop.h)(0x62FA44F4)
+F (..\App\LED\LED.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\App\LED\LED.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\App\TLILCD\TLILCD.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\tlilcd.o --omf_browse .\objects\tlilcd.crf --depend .\objects\tlilcd.d)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\HW\SDRAM\SDRAM.h)(0x6289DF43)
+I (..\App\TLILCD\Font.h)(0x62FA44F4)
+F (..\App\Picture\JPEG.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\jpeg.o --omf_browse .\objects\jpeg.crf --depend .\objects\jpeg.d)
+I (..\App\Picture\JPEG.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\Picture\tjpgd.h)(0x622DE40E)
+I (..\App\Picture\integer.h)(0x4BD31212)
+I (..\App\Picture\JPEGImage.h)(0x62FA44F4)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\App\Picture\tjpgd.c)(0x61403CBA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\tjpgd.o --omf_browse .\objects\tjpgd.crf --depend .\objects\tjpgd.d)
+I (..\App\Picture\tjpgd.h)(0x622DE40E)
+I (..\App\Picture\integer.h)(0x4BD31212)
+F (..\App\EmbGUI\Widget\TextWidget.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\textwidget.o --omf_browse .\objects\textwidget.crf --depend .\objects\textwidget.d)
+I (..\App\EmbGUI\Widget\TextWidget.h)(0x62FA44F4)
+I (..\App\EmbGUI\Platform\GUIConf.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\EmbGUI\Platform\GUIPlatform.h)(0x62FA44F4)
+F (..\App\EmbGUI\App\GUITop.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\guitop.o --omf_browse .\objects\guitop.crf --depend .\objects\guitop.d)
+I (..\App\EmbGUI\App\GUITop.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+I (..\App\Picture\JPEG.h)(0x62FA44F4)
+I (..\App\EmbGUI\Widget\TextWidget.h)(0x62FA44F4)
+I (..\App\EmbGUI\Platform\GUIConf.h)(0x62FA44F4)
+I (..\App\EmbGUI\Platform\GUIPlatform.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\math.h)(0x5E53505A)
+F (..\App\EmbGUI\Platform\GUIPlatform.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\guiplatform.o --omf_browse .\objects\guiplatform.crf --depend .\objects\guiplatform.d)
+I (..\App\EmbGUI\Platform\GUIPlatform.h)(0x62FA44F4)
+I (..\App\EmbGUI\Platform\GUIConf.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+I (..\App\Touch\Touch.h)(0x62FA44F4)
+I (..\App\Picture\BMP.h)(0x62FA44F4)
+I (..\App\Picture\JPEG.h)(0x62FA44F4)
+I (..\HW\Timer\Timer.h)(0x62FA44F3)
+F (..\App\IICCommon\IICCommon.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\iiccommon.o --omf_browse .\objects\iiccommon.crf --depend .\objects\iiccommon.d)
+I (..\App\IICCommon\IICCommon.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+F (..\App\InTemp\InTemp.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\intemp.o --omf_browse .\objects\intemp.crf --depend .\objects\intemp.d)
+I (..\App\InTemp\InTemp.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\HW\ADC\ADC.h)(0x62FA44F3)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\App\Picture\BMP.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\bmp.o --omf_browse .\objects\bmp.crf --depend .\objects\bmp.d)
+I (..\App\Picture\BMP.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\Picture\BMPImage.h)(0x62FA44F4)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\App\SHT20\SHT20.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\sht20.o --omf_browse .\objects\sht20.crf --depend .\objects\sht20.d)
+I (..\App\SHT20\SHT20.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\App\IICCommon\IICCommon.h)(0x62FA44F4)
+I (..\ARM\SysTick\SysTick.h)(0x62FA4522)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\App\TempHumidityTop\TempHumidityTop.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\temphumiditytop.o --omf_browse .\objects\temphumiditytop.crf --depend .\objects\temphumiditytop.d)
+I (..\App\TempHumidityTop\TempHumidityTop.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\EmbGUI\App\GUITop.h)(0x62FA44F4)
+I (..\App\InTemp\InTemp.h)(0x62FA44F4)
+I (..\App\SHT20\SHT20.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\App\Touch\GT1151Q.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gt1151q.o --omf_browse .\objects\gt1151q.crf --depend .\objects\gt1151q.d)
+I (..\App\Touch\GT1151Q.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\Touch\Touch.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\ARM\SysTick\SysTick.h)(0x62FA4522)
+I (..\App\IICCommon\IICCommon.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\App\TLILCD\TLILCD.h)(0x62FA44F4)
+F (..\App\Touch\Touch.c)(0x62FA44F4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\touch.o --omf_browse .\objects\touch.crf --depend .\objects\touch.d)
+I (..\App\Touch\Touch.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\App\Touch\GT1151Q.h)(0x62FA44F4)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\HW\Timer\Timer.c)(0x62FA4522)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\HW\Timer\Timer.h)(0x62FA44F3)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\HW\UART0\Queue.c)(0x62FA44F3)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (..\HW\UART0\Queue.h)(0x62FA44F3)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+F (..\HW\UART0\UART0.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\uart0.o --omf_browse .\objects\uart0.crf --depend .\objects\uart0.d)
+I (..\HW\UART0\UART0.h)(0x62FA44F3)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\HW\UART0\Queue.h)(0x62FA44F3)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\HW\RCU\RCU.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\rcu.o --omf_browse .\objects\rcu.crf --depend .\objects\rcu.d)
+I (..\HW\RCU\RCU.h)(0x62FA44F3)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\HW\SDRAM\SDRAM.c)(0x6289E4AB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\sdram.o --omf_browse .\objects\sdram.crf --depend .\objects\sdram.d)
+I (..\HW\SDRAM\SDRAM.h)(0x6289DF43)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\ARM\SysTick\SysTick.h)(0x62FA4522)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+F (..\HW\ADC\ADC.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\HW\ADC\ADC.h)(0x62FA44F3)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\ARM\SysTick\SysTick.h)(0x62FA4522)
+F (..\FW\Source\gd32f4xx_adc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_adc.o --omf_browse .\objects\gd32f4xx_adc.crf --depend .\objects\gd32f4xx_adc.d)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_can.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_can.o --omf_browse .\objects\gd32f4xx_can.crf --depend .\objects\gd32f4xx_can.d)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_crc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_crc.o --omf_browse .\objects\gd32f4xx_crc.crf --depend .\objects\gd32f4xx_crc.d)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_ctc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_ctc.o --omf_browse .\objects\gd32f4xx_ctc.crf --depend .\objects\gd32f4xx_ctc.d)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_dac.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_dac.o --omf_browse .\objects\gd32f4xx_dac.crf --depend .\objects\gd32f4xx_dac.d)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_dbg.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_dbg.o --omf_browse .\objects\gd32f4xx_dbg.crf --depend .\objects\gd32f4xx_dbg.d)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_dci.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_dci.o --omf_browse .\objects\gd32f4xx_dci.crf --depend .\objects\gd32f4xx_dci.d)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_dma.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_dma.o --omf_browse .\objects\gd32f4xx_dma.crf --depend .\objects\gd32f4xx_dma.d)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_enet.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_enet.o --omf_browse .\objects\gd32f4xx_enet.crf --depend .\objects\gd32f4xx_enet.d)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+F (..\FW\Source\gd32f4xx_exmc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_exmc.o --omf_browse .\objects\gd32f4xx_exmc.crf --depend .\objects\gd32f4xx_exmc.d)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_exti.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_exti.o --omf_browse .\objects\gd32f4xx_exti.crf --depend .\objects\gd32f4xx_exti.d)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_fmc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_fmc.o --omf_browse .\objects\gd32f4xx_fmc.crf --depend .\objects\gd32f4xx_fmc.d)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_fwdgt.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_fwdgt.o --omf_browse .\objects\gd32f4xx_fwdgt.crf --depend .\objects\gd32f4xx_fwdgt.d)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_gpio.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_gpio.o --omf_browse .\objects\gd32f4xx_gpio.crf --depend .\objects\gd32f4xx_gpio.d)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_i2c.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_i2c.o --omf_browse .\objects\gd32f4xx_i2c.crf --depend .\objects\gd32f4xx_i2c.d)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_ipa.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_ipa.o --omf_browse .\objects\gd32f4xx_ipa.crf --depend .\objects\gd32f4xx_ipa.d)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_iref.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_iref.o --omf_browse .\objects\gd32f4xx_iref.crf --depend .\objects\gd32f4xx_iref.d)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_misc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_misc.o --omf_browse .\objects\gd32f4xx_misc.crf --depend .\objects\gd32f4xx_misc.d)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_pmu.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_pmu.o --omf_browse .\objects\gd32f4xx_pmu.crf --depend .\objects\gd32f4xx_pmu.d)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_rcu.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_rcu.o --omf_browse .\objects\gd32f4xx_rcu.crf --depend .\objects\gd32f4xx_rcu.d)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_rtc.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_rtc.o --omf_browse .\objects\gd32f4xx_rtc.crf --depend .\objects\gd32f4xx_rtc.d)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_sdio.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_sdio.o --omf_browse .\objects\gd32f4xx_sdio.crf --depend .\objects\gd32f4xx_sdio.d)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_spi.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_spi.o --omf_browse .\objects\gd32f4xx_spi.crf --depend .\objects\gd32f4xx_spi.d)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_syscfg.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_syscfg.o --omf_browse .\objects\gd32f4xx_syscfg.crf --depend .\objects\gd32f4xx_syscfg.d)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_timer.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_timer.o --omf_browse .\objects\gd32f4xx_timer.crf --depend .\objects\gd32f4xx_timer.d)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_tli.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_tli.o --omf_browse .\objects\gd32f4xx_tli.crf --depend .\objects\gd32f4xx_tli.d)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_trng.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_trng.o --omf_browse .\objects\gd32f4xx_trng.crf --depend .\objects\gd32f4xx_trng.d)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_usart.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_usart.o --omf_browse .\objects\gd32f4xx_usart.crf --depend .\objects\gd32f4xx_usart.d)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\FW\Source\gd32f4xx_wwdgt.c)(0x62297358)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_wwdgt.o --omf_browse .\objects\gd32f4xx_wwdgt.crf --depend .\objects\gd32f4xx_wwdgt.d)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\ARM\NVIC\NVIC.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (..\ARM\NVIC\NVIC.h)(0x62FA44F4)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+F (..\ARM\SysTick\SysTick.c)(0x62FA454F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\ARM\SysTick\SysTick.h)(0x62FA4522)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+F (..\ARM\System\gd32f4xx_it.c)(0x6278A9AB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd32f4xx_it.o --omf_browse .\objects\gd32f4xx_it.crf --depend .\objects\gd32f4xx_it.d)
+I (..\ARM\System\gd32f4xx_it.h)(0x62297359)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
+I (..\App\Main\main.h)(0x61BC746A)
+I (..\ARM\SysTick\systick.h)(0x62FA4522)
+I (..\App\DataType\DataType.h)(0x62FA44F4)
+I (..\ARM\System\gd32f470x_conf.h)(0x628D8FA9)
+F (..\ARM\System\startup_gd32f450_470.s)(0x62844DA7)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "GD32F470 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_gd32f450_470.lst --xref -o .\objects\startup_gd32f450_470.o --depend .\objects\startup_gd32f450_470.d)
+F (..\ARM\System\system_gd32f4xx.c)(0x628595A1)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\ARM\NVIC -I ..\ARM\System -I ..\ARM\SysTick -I ..\HW\ADC -I ..\HW\RCU -I ..\HW\SDRAM -I ..\HW\Timer -I ..\HW\UART0 -I ..\App\DataType -I ..\App\EmbGUI\App -I ..\App\EmbGUI\Module -I ..\App\EmbGUI\Platform -I ..\App\EmbGUI\Widget -I ..\App\IICCommon -I ..\App\InTemp -I ..\App\LED -I ..\App\Main -I ..\App\Picture -I ..\App\SHT20 -I ..\App\TempHumidityTop -I ..\App\TLILCD -I ..\App\Touch-I.\RTE\_Target_1-ID:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\Software\Keil_v5\ARM\Packs\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\system_gd32f4xx.o --omf_browse .\objects\system_gd32f4xx.crf --depend .\objects\system_gd32f4xx.d)
+I (..\ARM\System\gd32f4xx.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E53505C)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8ED122)
+I (..\ARM\System\system_gd32f4xx.h)(0x62297358)
+I (..\ARM\System\gd32f4xx_libopt.h)(0x62297359)
+I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_adc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_can.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_crc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ctc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dac.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dbg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dci.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_dma.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_exti.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_fwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_gpio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_syscfg.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_i2c.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_iref.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_pmu.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_rtc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_sdio.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_spi.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_timer.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_trng.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_usart.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_wwdgt.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_misc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_enet.h)(0x62297358)
+I (D:\Software\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
+I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
+I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)

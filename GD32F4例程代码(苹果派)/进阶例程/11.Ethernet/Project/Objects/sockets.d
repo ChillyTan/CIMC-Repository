@@ -1,0 +1,9 @@
+.\objects\sockets.o: ..\TPSW\LWIP\lwip-1.4.1\src\api\sockets.c
+.\objects\sockets.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/opt.h
+.\objects\sockets.o: ..\TPSW\LWIP\lwip_app\LWIPComm\lwipopts.h
+.\objects\sockets.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/debug.h
+.\objects\sockets.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/arch.h
+.\objects\sockets.o: ..\TPSW\LWIP\arch/cc.h
+.\objects\sockets.o: ..\TPSW\LWIP\arch/cpu.h
+.\objects\sockets.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\sockets.o: ..\TPSW\LWIP\lwip-1.4.1\src\include\lwip/opt.h

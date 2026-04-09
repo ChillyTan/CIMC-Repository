@@ -1,0 +1,42 @@
+.\objects\sdio_sdcard.o: ..\fatfs\sdio_sdcard.c
+.\objects\sdio_sdcard.o: ..\fatfs\sdio_sdcard.h
+.\objects\sdio_sdcard.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\sdio_sdcard.o: ..\CMSIS\core_cm4.h
+.\objects\sdio_sdcard.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sdio_sdcard.o: ..\CMSIS\core_cmInstr.h
+.\objects\sdio_sdcard.o: ..\CMSIS\core_cmFunc.h
+.\objects\sdio_sdcard.o: ..\CMSIS\core_cm4_simd.h
+.\objects\sdio_sdcard.o: ..\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\sdio_sdcard.o: ..\User\gd32f4xx_libopt.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\sdio_sdcard.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\sdio_sdcard.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
+.\objects\sdio_sdcard.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\sdio_sdcard.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stddef.h
