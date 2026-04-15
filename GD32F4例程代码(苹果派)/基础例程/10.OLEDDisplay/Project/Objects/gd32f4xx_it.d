@@ -1,12 +1,12 @@
 .\objects\gd32f4xx_it.o: ..\ARM\System\gd32f4xx_it.c
 .\objects\gd32f4xx_it.o: ..\ARM\System\gd32f4xx_it.h
 .\objects\gd32f4xx_it.o: ..\ARM\System\gd32f4xx.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
 .\objects\gd32f4xx_it.o: ..\ARM\System\system_gd32f4xx.h
 .\objects\gd32f4xx_it.o: ..\ARM\System\gd32f4xx_libopt.h
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_rcu.h
@@ -36,7 +36,7 @@
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_wwdgt.h
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_misc.h
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_enet.h
-.\objects\gd32f4xx_it.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gd32f4xx_it.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_exmc.h
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_ipa.h
 .\objects\gd32f4xx_it.o: ..\FW\Include\gd32f4xx_tli.h

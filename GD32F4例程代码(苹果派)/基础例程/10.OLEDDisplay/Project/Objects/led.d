@@ -3,12 +3,12 @@
 .\objects\led.o: ..\ARM\System\gd32f470x_conf.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_rcu.h
 .\objects\led.o: ..\ARM\System\gd32f4xx.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\led.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\led.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\led.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\led.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\led.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
 .\objects\led.o: ..\ARM\System\system_gd32f4xx.h
 .\objects\led.o: ..\ARM\System\gd32f4xx_libopt.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_rcu.h
@@ -38,7 +38,7 @@
 .\objects\led.o: ..\FW\Include\gd32f4xx_wwdgt.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_misc.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_enet.h
-.\objects\led.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\led.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_exmc.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_ipa.h
 .\objects\led.o: ..\FW\Include\gd32f4xx_tli.h

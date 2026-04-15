@@ -50,3 +50,8 @@
 .\objects\main.o: ..\App\LED\LED.h
 .\objects\main.o: ..\HW\UART0\UART0.h
 .\objects\main.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: ..\App\KeyOne\KeyOne.h
+.\objects\main.o: ..\App\KeyOne\ProcKeyOne.h
+.\objects\main.o: ..\HW\OLED\OLED.h
+.\objects\main.o: ..\HW\RTC\RTC.h
+.\objects\main.o: ..\HW\SPI_FLASH\SPI_FLASH.h

@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470,USE_USB_FS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0</IncludePath>
+              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0;..\App\KeyOne;..\HW\OLED;..\HW\ADC;..\HW\RTC;..\HW\SPI_FLASH</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -393,6 +393,16 @@
               <FileType>1</FileType>
               <FilePath>..\App\LED\LED.c</FilePath>
             </File>
+            <File>
+              <FileName>KeyOne.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\KeyOne\KeyOne.c</FilePath>
+            </File>
+            <File>
+              <FileName>ProcKeyOne.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\KeyOne\ProcKeyOne.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -420,6 +430,31 @@
               <FileName>UART0.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HW\UART0\UART0.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\OLED\OLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\ADC\ADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>U16Queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\ADC\U16Queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>RTC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\RTC\RTC.c</FilePath>
+            </File>
+            <File>
+              <FileName>SPI_FLASH.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\SPI_FLASH\SPI_FLASH.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -461,6 +496,121 @@
               <FileName>gd32f4xx_usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\FW\Source\gd32f4xx_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_can.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_can.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_crc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_crc.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_ctc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_ctc.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_dac.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_dac.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_dbg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_dbg.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_dci.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_dci.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_enet.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_enet.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_exmc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_exmc.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_exti.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_fwdgt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_fwdgt.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_ipa.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_ipa.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_iref.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_iref.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_pmu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_pmu.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_sdio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_sdio.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_syscfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_syscfg.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_tli.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_tli.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_trng.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_trng.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd32f4xx_wwdgt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FW\Source\gd32f4xx_wwdgt.c</FilePath>
             </File>
           </Files>
         </Group>

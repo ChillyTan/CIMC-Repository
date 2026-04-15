@@ -4,12 +4,12 @@
 .\objects\timer.o: ..\ARM\System\gd32f470x_conf.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_rcu.h
 .\objects\timer.o: ..\ARM\System\gd32f4xx.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
 .\objects\timer.o: ..\ARM\System\system_gd32f4xx.h
 .\objects\timer.o: ..\ARM\System\gd32f4xx_libopt.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_rcu.h
@@ -39,7 +39,7 @@
 .\objects\timer.o: ..\FW\Include\gd32f4xx_wwdgt.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_misc.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_enet.h
-.\objects\timer.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timer.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_exmc.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_ipa.h
 .\objects\timer.o: ..\FW\Include\gd32f4xx_tli.h

@@ -1,15 +1,15 @@
 .\objects\uart0.o: ..\HW\UART0\UART0.c
 .\objects\uart0.o: ..\HW\UART0\UART0.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\uart0.o: ..\ARM\System\gd32f470x_conf.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_rcu.h
 .\objects\uart0.o: ..\ARM\System\gd32f4xx.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
 .\objects\uart0.o: ..\ARM\System\system_gd32f4xx.h
 .\objects\uart0.o: ..\ARM\System\gd32f4xx_libopt.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_rcu.h
@@ -39,7 +39,7 @@
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_wwdgt.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_misc.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_enet.h
-.\objects\uart0.o: D:\Software\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\uart0.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_exmc.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_ipa.h
 .\objects\uart0.o: ..\FW\Include\gd32f4xx_tli.h

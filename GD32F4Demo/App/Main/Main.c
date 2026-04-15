@@ -25,6 +25,11 @@
 #include "Timer.h"
 #include "LED.h"
 #include "UART0.h"
+#include "KeyOne.h"
+#include "ProcKeyOne.h"
+#include "OLED.h"
+#include "RTC.h"
+#include "SPI_FLASH.h"
 
 /*********************************************************************************************************
 *                                              宏定义
@@ -67,6 +72,11 @@ static  void  InitHardware(void)
   InitSysTick();       //初始化SysTick模块
 	InitLED();           //初始化LED模块
   InitUART0(115200);   //初始化UART模块
+  InitKeyOne();        //初始化按键模块
+  InitProcKeyOne();    //初始化按键处理模块
+	OLED_Init();         //初始化OLED模块
+	RTC_Init();          //初始化RTC模块
+	spi_flash_init();    //初始化SPI_FLASH模块
 }
 
 /*********************************************************************************************************
@@ -94,12 +104,27 @@ static  void  InitSoftware(void)
 *********************************************************************************************************/
 static  void  Proc2msTask(void)
 {  
+  static u8 s_Cnt5 = 0;
   unsigned char recData;
   
   if(Get2msFlag())  //判断2ms标志位状态
   { 
     LEDFlicker(250);//调用闪烁函数
     
+    //20ms任务
+    if(s_Cnt5 >= 4)
+    {
+      ScanKeyOne(KEY_NAME_KEY1, ProcKeyUpKey1, ProcKeyDownKey1);
+      ScanKeyOne(KEY_NAME_KEY2, ProcKeyUpKey2, ProcKeyDownKey2);
+      ScanKeyOne(KEY_NAME_KEY3, ProcKeyUpKey3, ProcKeyDownKey3);
+
+      s_Cnt5 = 0;
+    }
+    else
+    {
+      s_Cnt5++;
+    }
+
     while(ReadUART0(&recData, 1))
     {
       recData++;
@@ -124,7 +149,7 @@ static  void  Proc1SecTask(void)
 { 
   if(Get1SecFlag()) //判断1s标志位状态
   {
-    printf("This is the first GD32F470 Project, by Zhangsan\r\n");
+		rtc_show_time();
     
     Clr1SecFlag();  //清除1s标志位
   }    
@@ -145,6 +170,14 @@ int main(void)
   InitSoftware();   //初始化软件相关函数
 
   printf("Init System has been finished.\r\n" );  //打印系统状态
+
+	OLED_ShowChinese(0,0,3,16);   //电
+	OLED_ShowChinese(16,0,4,16);  //子
+	OLED_ShowChinese(32,0,5,16);  //科
+	OLED_ShowChinese(48,0,6,16);  //技
+	OLED_Refresh();
+	
+	printf("FlashID: 0x%08x\r\n", spi_flash_read_id());
   
   while(1)
   {  

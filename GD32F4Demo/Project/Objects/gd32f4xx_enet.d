@@ -1,13 +1,13 @@
 .\objects\gd32f4xx_enet.o: ..\FW\Source\gd32f4xx_enet.c
 .\objects\gd32f4xx_enet.o: ..\FW\Include\gd32f4xx_enet.h
 .\objects\gd32f4xx_enet.o: ..\ARM\System\gd32f4xx.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\GigaDevice\GD32F4xx_DFP\2.0.0\Device\F4XX\Include\system_gd32f4xx.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\gd32f4xx_enet.o: ..\ARM\System\system_gd32f4xx.h
 .\objects\gd32f4xx_enet.o: ..\ARM\System\gd32f4xx_libopt.h
 .\objects\gd32f4xx_enet.o: ..\FW\Include\gd32f4xx_rcu.h
 .\objects\gd32f4xx_enet.o: ..\ARM\System\gd32f4xx.h
@@ -39,4 +39,4 @@
 .\objects\gd32f4xx_enet.o: ..\FW\Include\gd32f4xx_exmc.h
 .\objects\gd32f4xx_enet.o: ..\FW\Include\gd32f4xx_ipa.h
 .\objects\gd32f4xx_enet.o: ..\FW\Include\gd32f4xx_tli.h
-.\objects\gd32f4xx_enet.o: D:\stm32\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gd32f4xx_enet.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h

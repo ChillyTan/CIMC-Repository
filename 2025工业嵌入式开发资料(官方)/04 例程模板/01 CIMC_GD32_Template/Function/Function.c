@@ -29,12 +29,12 @@
  * Author   :       Lingyu Meng
  * Date     :       2025-02-30 V0.1 original
 ************************************************************/
-
 void System_Init(void)
 {
 	systick_config();     // 时钟配置
 	
 }
+
 /************************************************************ 
  * Function :       Init_LED_Stat
  * Comment  :       系统初始化时用LED显示状态

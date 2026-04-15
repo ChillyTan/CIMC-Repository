@@ -1,0 +1,571 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 11, LIC=YA39H-WDMM5-Y8UFK-ZZ52R-11VV8-BAPFY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\Program Files (x86)\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+c:\Users\25404\Desktop\CIMC\TimStartling\project\cimc_project.uvprojx
+Project File Date:  04/06/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Program Files (x86)\ARM\ARMCC\Bin'
+Build target 'cimc_project'
+compiling SPI_FLASH.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\SPI_FLASH.c(103): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t num_of_sector = 0, num_of_single = 0, addr = 0, count = 0, temp = 0;
+..\APP\SPI_FLASH.c(239): warning:  #177-D: variable "temp"  was declared but never referenced
+      uint8_t num_of_page = 0, num_of_single = 0, addr = 0, count = 0, temp = 0;
+..\APP\SPI_FLASH.c: 16 warnings, 0 errors
+compiling str_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\str_app.h(6): warning:  #1295-D: Deprecated declaration system_test - give arg types
+  void system_test();
+..\APP\str_app.h(7): warning:  #1295-D: Deprecated declaration read_Ratio - give arg types
+  void read_Ratio();
+..\APP\str_app.h(8): warning:  #1295-D: Deprecated declaration show_conf - give arg types
+  void show_conf();
+..\APP\str_app.h(10): warning:  #1295-D: Deprecated declaration read_Limit - give arg types
+  void read_Limit();
+..\APP\str_app.h(12): warning:  #1295-D: Deprecated declaration config_save - give arg types
+  void config_save();
+..\APP\str_app.h(13): warning:  #1295-D: Deprecated declaration config_read - give arg types
+  void config_read();
+..\APP\str_app.h(14): warning:  #1295-D: Deprecated declaration hide_to_unix - give arg types
+  void hide_to_unix();
+..\APP\str_app.c(301): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\str_app.c: 22 warnings, 0 errors
+compiling key_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\key_app.h(7): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\key_app.c(76): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\key_app.c: 16 warnings, 0 errors
+compiling sdcard_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\sdcard_app.c: 14 warnings, 0 errors
+compiling scheduler.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\scheduler.c(32): warning:  #223-D: function "GetSysRunTime" declared implicitly
+  		uint32_t now_time=GetSysRunTime();
+..\APP\scheduler.c: 15 warnings, 0 errors
+compiling led_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\led_app.h(7): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\led_app.h(8): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\led_app.c(65): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\led_app.c: 17 warnings, 0 errors
+compiling rtc_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\rtc_app.c: 14 warnings, 0 errors
+compiling OLED.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\OLED.c: 14 warnings, 0 errors
+compiling oled_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\oled_app.h(5): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\oled_app.c(16): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+  			sprintf(data,"%0.2x:%0.2x:%0.2x   ",sp.hour,sp.minute,sp.second);
+..\APP\oled_app.c(18): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+  			sprintf(data,"%.2fV     ",sp.adc_vlot);
+..\APP\oled_app.c(23): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+  			sprintf(data,"%s  ",sp.uart_buff);
+..\APP\oled_app.c(28): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+  			sprintf(data,"%s  ",sp.flash_buff_old);
+..\APP\oled_app.c(37): warning:  #1-D: last line of file ends without a newline
+  }
+..\APP\oled_app.c: 20 warnings, 0 errors
+compiling system_init.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\system_init.h(5): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();
+..\APP\system_init.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\APP\system_init.c(25): warning:  #223-D: function "ADC_port_init" declared implicitly
+      ADC_port_init(); //ADC≥ı ºªØ
+..\APP\system_init.c: 17 warnings, 0 errors
+compiling adc_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\adc_app.h(12): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\adc_app.h(13): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\adc_app.h(14): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\adc_app.h(15): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\str_app.h(6): warning:  #1295-D: Deprecated declaration system_test - give arg types
+  void system_test();
+..\APP\str_app.h(7): warning:  #1295-D: Deprecated declaration read_Ratio - give arg types
+  void read_Ratio();
+..\APP\str_app.h(8): warning:  #1295-D: Deprecated declaration show_conf - give arg types
+  void show_conf();
+..\APP\str_app.h(10): warning:  #1295-D: Deprecated declaration read_Limit - give arg types
+  void read_Limit();
+..\APP\str_app.h(12): warning:  #1295-D: Deprecated declaration config_save - give arg types
+  void config_save();
+..\APP\str_app.h(13): warning:  #1295-D: Deprecated declaration config_read - give arg types
+  void config_read();
+..\APP\str_app.h(14): warning:  #1295-D: Deprecated declaration hide_to_unix - give arg types
+  void hide_to_unix();
+..\APP\adc_app.c: 25 warnings, 0 errors
+compiling gd32f4xx_it.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\User\gd32f4xx_it.c: 14 warnings, 0 errors
+compiling main.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\User\main.c(22): warning:  #111-D: statement is unreachable
+  	return 0;
+..\User\main.c(23): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\main.c: 16 warnings, 0 errors
+compiling uart_app.c...
+..\APP\bsp_system.h(20): warning:  #1295-D: Deprecated declaration system_init - give arg types
+  void system_init();	
+..\APP\bsp_system.h(21): warning:  #1295-D: Deprecated declaration scheduler_init - give arg types
+  void scheduler_init();
+..\APP\bsp_system.h(22): warning:  #1295-D: Deprecated declaration scheduler_run - give arg types
+  void scheduler_run();
+..\APP\bsp_system.h(25): warning:  #1295-D: Deprecated declaration led_proc - give arg types
+  void led_proc();
+..\APP\bsp_system.h(26): warning:  #1295-D: Deprecated declaration led_flash - give arg types
+  void led_flash();
+..\APP\bsp_system.h(28): warning:  #1295-D: Deprecated declaration key_proc - give arg types
+  void key_proc();
+..\APP\bsp_system.h(29): warning:  #1295-D: Deprecated declaration oled_proc - give arg types
+  void oled_proc();
+..\APP\bsp_system.h(34): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(35): warning:  #1295-D: Deprecated declaration adc_proc - give arg types
+  void adc_proc();
+..\APP\bsp_system.h(36): warning:  #1295-D: Deprecated declaration print_adc_5s - give arg types
+  void print_adc_5s();
+..\APP\bsp_system.h(37): warning:  #1295-D: Deprecated declaration print_adc_10s - give arg types
+  void print_adc_10s();
+..\APP\bsp_system.h(38): warning:  #1295-D: Deprecated declaration print_adc_15s - give arg types
+  void print_adc_15s();
+..\APP\bsp_system.h(40): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\bsp_system.h(48): warning:  #1295-D: Deprecated declaration sdcard_init - give arg types
+  void sdcard_init();
+..\APP\uart_app.h(6): warning:  #1295-D: Deprecated declaration uart_proc - give arg types
+  void uart_proc();
+..\APP\str_app.h(6): warning:  #1295-D: Deprecated declaration system_test - give arg types
+  void system_test();
+..\APP\str_app.h(7): warning:  #1295-D: Deprecated declaration read_Ratio - give arg types
+  void read_Ratio();
+..\APP\str_app.h(8): warning:  #1295-D: Deprecated declaration show_conf - give arg types
+  void show_conf();
+..\APP\str_app.h(10): warning:  #1295-D: Deprecated declaration read_Limit - give arg types
+  void read_Limit();
+..\APP\str_app.h(12): warning:  #1295-D: Deprecated declaration config_save - give arg types
+  void config_save();
+..\APP\str_app.h(13): warning:  #1295-D: Deprecated declaration config_read - give arg types
+  void config_read();
+..\APP\str_app.h(14): warning:  #1295-D: Deprecated declaration hide_to_unix - give arg types
+  void hide_to_unix();
+..\APP\uart_app.c: 22 warnings, 0 errors
+linking...
+Program Size: Code=37604 RO-data=9232 RW-data=2580 ZI-data=3436  
+FromELF: creating hex file...
+".\Objects\cimc_project.axf" - 0 Error(s), 242 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: GigaDevice
+                http://gd32mcu.com/data/documents/pack/GigaDevice.GD32F4xx_DFP.3.0.0.pack
+                GigaDevice.GD32F4xx_DFP.3.0.0
+                GigaDevice GD32F4xx Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_cimc_project
+  D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Program Files (x86)\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
