@@ -36,6 +36,7 @@
 /************************ 函数定义 ************************/
 
 void LED_Init(void);     // LED 初始化
+void LEDFlicker(uint16_t cnt);   // LED 闪烁
 				    
 #endif
 

@@ -35,5 +35,10 @@
 void  InitSysTick(void);               //初始化SysTick模块
 void  DelayNus(__IO unsigned int nus); //微秒级延时函数
 void  DelayNms(__IO unsigned int nms); //毫秒级延时函数
+uint8_t  Get2msFlag(void); //获取2ms标志位的值
+uint8_t  Get1secFlag(void); //获取1s标志位的值
+void Clr2msFlag(void); //清除2ms标志位
+void Clr1secFlag(void); //清除1s标志位
+
 
 #endif

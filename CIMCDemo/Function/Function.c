@@ -17,10 +17,33 @@
 /************************ 变量定义 ************************/
 
 
-/************************ 函数定义 ************************/
+/************************ 内部函数声明 ********************/
+static void Proc2msTask(void);
+static void Proc1sTask(void);
 
+/************************ 内部函数定义 ********************/
 
+//2ms任务处理
+static void Proc2msTask(void)
+{
+	if(Get2msFlag())
+	{
+		LEDFlicker(250);
+		Clr2msFlag();
+	}
+}
 
+//1s任务处理
+static void Proc1sTask(void)
+{
+	if(Get1secFlag())
+	{
+		
+		Clr1secFlag();
+	}
+}
+
+/************************ 外部函数定义 ************************/
 /************************************************************ 
  * Function :       System_Init
  * Comment  :       用于初始化MCU
@@ -32,37 +55,24 @@
 void System_Init(void)
 {
 	InitSysTick();
-	
+	LED_Init();
 }
-
-/************************************************************ 
- * Function :       Init_LED_Stat
- * Comment  :       系统初始化时用LED显示状态
- * Parameter:       null
- * Return   :       null
- * Author   :       Lingyu Meng
- * Date     :       2025-03-10 V0.1 original
-************************************************************/
 
 
 /************************************************************ 
  * Function :       UsrFunction
- * Comment  :       用户程序功能: LED1闪烁
+ * Comment  :       用户程序主循环
  * Parameter:       null
  * Return   :       null
  * Author   :       Lingyu Meng
  * Date     :       2025-02-30 V0.1 original
 ************************************************************/
-
 void UsrFunction(void)
 {
-	
-	
 	while(1)
 	{
-		
-		
-	
+		Proc2msTask();
+		Proc1sTask();
 	}
 }
 

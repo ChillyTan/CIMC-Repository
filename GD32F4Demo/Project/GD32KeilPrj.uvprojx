@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470,USE_USB_FS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0;..\App\KeyOne;..\HW\OLED;..\HW\ADC;..\HW\RTC;..\HW\SPI_FLASH</IncludePath>
+              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0;..\App\KeyOne;..\HW\OLED;..\HW\ADC;..\HW\RTC;..\HW\SPI_FLASH;..\HW\AD3344</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -455,6 +455,16 @@
               <FileName>SPI_FLASH.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HW\SPI_FLASH\SPI_FLASH.c</FilePath>
+            </File>
+            <File>
+              <FileName>gd30ad3344.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\AD3344\gd30ad3344.c</FilePath>
+            </File>
+            <File>
+              <FileName>SPI2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\AD3344\SPI2.c</FilePath>
             </File>
           </Files>
         </Group>

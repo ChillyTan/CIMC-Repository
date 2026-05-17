@@ -45,7 +45,6 @@ void spi_flash_write_enable(void);
 /* poll the status of the write in progress (wip) flag in the flash's status register */
 void spi_flash_wait_for_write_end(void);
 
-
 void spi_flash_buffer_erase(u32 sector_addr,  u32 num_byte_to_erase);
 
 #endif

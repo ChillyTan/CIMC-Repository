@@ -55,3 +55,4 @@
 .\objects\main.o: ..\HW\OLED\OLED.h
 .\objects\main.o: ..\HW\RTC\RTC.h
 .\objects\main.o: ..\HW\SPI_FLASH\SPI_FLASH.h
+.\objects\main.o: ..\HW\AD3344\gd30ad3344.h

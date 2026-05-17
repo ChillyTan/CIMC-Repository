@@ -12,6 +12,8 @@
 ".\objects\u16queue.o"
 ".\objects\rtc.o"
 ".\objects\spi_flash.o"
+".\objects\gd30ad3344.o"
+".\objects\spi2.o"
 ".\objects\gd32f4xx_fmc.o"
 ".\objects\gd32f4xx_gpio.o"
 ".\objects\gd32f4xx_misc.o"
