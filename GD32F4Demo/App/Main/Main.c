@@ -107,6 +107,7 @@ static  void  InitSoftware(void)
 static  void  Proc2msTask(void)
 {  
   static u8 s_Cnt5 = 0;
+  static u16 s_Cnt50 = 0;
   unsigned char recData;
   
   if(Get2msFlag())  //判断2ms标志位状态
@@ -127,12 +128,23 @@ static  void  Proc2msTask(void)
       s_Cnt5++;
     }
 
-    while(ReadUART0(&recData, 1))
+    //100ms任务
+    if(s_Cnt50 >= 49)
     {
-      recData++;
-     
-      WriteUART0(&recData, 1);
+      s_Cnt50 = 0;
+      GD30AD3344Task();
     }
+    else
+    {
+      s_Cnt50++;
+    }
+    
+    // while(ReadUART0(&recData, 1))
+    // {
+    //   recData++;
+     
+    //   WriteUART0(&recData, 1);
+    // }
 
     Clr2msFlag();   //清除2ms标志位
   }
@@ -149,10 +161,13 @@ static  void  Proc2msTask(void)
 *********************************************************************************************************/
 static  void  Proc1SecTask(void)
 { 
+  float temp = 0;
   if(Get1SecFlag()) //判断1s标志位状态
   {
 //		rtc_show_time();
-    GD30AD3344_AD_Read(GD30AD3344_MUX_AIN0_GND, GD30AD3344_PGA_4V096);    
+    temp = GD30AD3344_GetTemperature();
+
+    OLED_Refresh();
 
     Clr1SecFlag();  //清除1s标志位
   }    
@@ -179,6 +194,7 @@ int main(void)
 	OLED_ShowChinese(32,0,5,16);  //科
 	OLED_ShowChinese(48,0,6,16);  //技
 	OLED_Refresh();
+  OLED_Clear();
 	
 	printf("FlashID: 0x%08x\r\n", spi_flash_read_id());
   

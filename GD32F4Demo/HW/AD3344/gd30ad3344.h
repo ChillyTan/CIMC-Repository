@@ -214,5 +214,7 @@ extern GD30AD3344 GD30AD3344_InitStruct;
 /************************* API???????? *************************/
 void  GD30AD3344_Init(void);
 float GD30AD3344_AD_Read(GD30AD3344_Channel_TypeDef CH, GD30AD3344_PGA_TypeDef Ref);
+void  GD30AD3344Task(void);
+float GD30AD3344_GetTemperature(void);
 
 #endif

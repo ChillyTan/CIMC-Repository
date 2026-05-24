@@ -1,0 +1,49 @@
+.\objects\eeprom.o: ..\HardWare\EEPROM\eeprom.c
+.\objects\eeprom.o: ..\HardWare\EEPROM\eeprom.h
+.\objects\eeprom.o: ..\HeaderFiles\HeaderFiles.h
+.\objects\eeprom.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\eeprom.o: ..\CMSIS\core_cm4.h
+.\objects\eeprom.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eeprom.o: ..\CMSIS\core_cmInstr.h
+.\objects\eeprom.o: ..\CMSIS\core_cmFunc.h
+.\objects\eeprom.o: ..\CMSIS\core_cm4_simd.h
+.\objects\eeprom.o: ..\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\eeprom.o: ..\User\gd32f4xx_libopt.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\eeprom.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\eeprom.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
+.\objects\eeprom.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\eeprom.o: ..\User\systick.h
+.\objects\eeprom.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\eeprom.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\string.h
+.\objects\eeprom.o: ..\Function\Function.h
+.\objects\eeprom.o: ..\HeaderFiles\HeaderFiles.h
+.\objects\eeprom.o: ..\HardWare\LED\LED.h
+.\objects\eeprom.o: ..\HardWare\I2C\i2c.h

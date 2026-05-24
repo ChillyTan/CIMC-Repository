@@ -9,7 +9,7 @@ R = temp_to_res(T, R0, A, B, C);
 fprintf('温度 %.4f ℃ 对应的电阻为 %.6f Ω\n', T, R);
 
 % 示例2：根据电阻计算温度
-R_meas = 80;  % 测得电阻，单位 Ω
+R_meas = 106.7;  % 测得电阻，单位 Ω
 T_calc = res_to_temp(R_meas, R0, A, B, C);
 fprintf('电阻 %.6f Ω 对应的温度为 %.6f ℃\n', R_meas, T_calc);
 
@@ -23,7 +23,7 @@ function R = temp_to_res(T, R0, A, B, C)
     R = zeros(size(T));
 
     idx_neg = T < 0;
-    idx_pos = T >= 0;
+    idx_pos = T >= 0;   
 
     % T < 0
     R(idx_neg) = R0 .* (1 + A .* T(idx_neg) + B .* T(idx_neg).^2);

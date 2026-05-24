@@ -437,16 +437,6 @@
               <FilePath>..\HW\OLED\OLED.c</FilePath>
             </File>
             <File>
-              <FileName>ADC.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HW\ADC\ADC.c</FilePath>
-            </File>
-            <File>
-              <FileName>U16Queue.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HW\ADC\U16Queue.c</FilePath>
-            </File>
-            <File>
               <FileName>RTC.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HW\RTC\RTC.c</FilePath>

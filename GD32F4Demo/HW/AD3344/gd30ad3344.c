@@ -9,14 +9,26 @@
 #include "SPI2.h"
 #include "UART0.h"
 
-GD30AD3344 GD30AD3344_InitStruct;
+//用电压表标定
+#define TEMP_K  121.134991
+#define TEMP_B  -257.603098
 
-/************************* ??????????? *************************/
+//用V1ADC采集标定
+//#define TEMP_K  121.808203
+//#define TEMP_B  -260.882515
+
+#define VOLT_LEN 5
+
+GD30AD3344 GD30AD3344_InitStruct;   //AD3344配置结构体
+static float s_Voltage[VOLT_LEN] = {0};     //ADC采样电压缓存数组
+
+/************************* 内部函数声明 *************************/
 static void ConfigAD3344CS(void);
 static u16  AD3344Transfer16(u16 half_word);
 static void ad3344_ExtRef(void);
+static void insertSort(float data, float* buf, u8 len);
 
-/************************* ?????????? *************************/
+/************************* 内部函数定义 *************************/
 static void ConfigAD3344CS(void)
 {
     rcu_periph_clock_enable(GD30AD3344_CS_RCU);
@@ -37,52 +49,82 @@ static u16 AD3344Transfer16(u16 half_word)
 //配置AIN3作为外部参考
 void ad3344_ExtRef(void)
 {
-    uint16_t addr,val,rdval;
-    uint16_t tx_data;
-    
-    addr = 0x10 + 0x4;
-    
-    SPI_CLR_CS();
-    delay_us(1000);
-    
-    tx_data = 0x8106;
-    ad3344_spi_txrx16bit(tx_data);
-    delay_us(1000);
-    
-    tx_data = addr;
-    ad3344_spi_txrx16bit(tx_data);
-    delay_us(1000);
-    
-    rdval = ad3344_spi_txrx16bit(0x00);
-    delay_us(1000);
-    
-    SPI_SET_CS();
-    delay_us(1000);
-    
-    val = rdval | 0x40;
-    
-    SPI_CLR_CS();
-    delay_us(1000);
-    
-    tx_data = 0x8100;
-    ad3344_spi_txrx16bit(tx_data);
-    
-    tx_data = addr;
-    ad3344_spi_txrx16bit(tx_data);
-    
-    tx_data = val;
-    ad3344_spi_txrx16bit(tx_data);
-    delay_us(1000);
-    
-    SPI_SET_CS();
-    delay_us(1000);
+   uint16_t addr,val,rdval;
+   uint16_t tx_data;
+   
+   addr = 0x10 + 0x4;
+   
+   GD30AD3344_CS_LOW();
+   DelayNms(1);
+   
+   tx_data = 0x8106;
+   AD3344Transfer16(tx_data);
+   DelayNms(1);
+   
+   tx_data = addr;
+   AD3344Transfer16(tx_data);
+   DelayNms(1);
+   
+   rdval = AD3344Transfer16(0x00);
+   DelayNms(1);
+   
+   GD30AD3344_CS_HIGH();
+   DelayNms(1);
+   
+   val = rdval | 0x40;
+   
+   GD30AD3344_CS_LOW();
+   DelayNms(1);
+   
+   tx_data = 0x8100;
+   AD3344Transfer16(tx_data);
+   
+   tx_data = addr;
+   AD3344Transfer16(tx_data);
+   
+   tx_data = val;
+   AD3344Transfer16(tx_data);
+   DelayNms(1);
+   
+   GD30AD3344_CS_HIGH();
+   DelayNms(1);
 }
+
+//计算某个数组中的中位数
+static float GetMedianFloat(float *buf, u8 len)
+{
+    float vol[VOLT_LEN];
+    float t;
+    u8 i, j;
+    if (len == 0) {
+        return 0.0f;
+    }
+
+    for (i = 0; i < len; i++) {
+        vol[i] = buf[i];
+    }
+
+		//冒泡排序
+    for (i = 0; i < len - 1; i++) {
+        for (j = i + 1; j < len; j++) {
+            if (vol[i] > vol[j]) {
+                t = vol[i];
+                vol[i] = vol[j];
+                vol[j] = t;
+            }
+        }
+    }
+		
+    return vol[len / 2];
+}
+
 
 /************************* API??????? *************************/
 void GD30AD3344_Init(void)
 {
     SPI2_Init(SPI_CK_PL_LOW_PH_2EDGE, SPI_PSC_64);
     ConfigAD3344CS();
+    ad3344_ExtRef();    //配置AIN3作为外部基准源
 
     GD30AD3344_InitStruct.SS         = 0;
     GD30AD3344_InitStruct.MUX        = GD30AD3344_MUX_AIN0_GND;
@@ -121,6 +163,7 @@ float ADS118_PGA_SET(GD30AD3344_PGA_TypeDef PGA)
     }
 }
 
+//读取电压AD值
 float GD30AD3344_AD_Read(GD30AD3344_Channel_TypeDef CH, GD30AD3344_PGA_TypeDef Ref)
 {
     uint16_t raw_data;
@@ -134,14 +177,35 @@ float GD30AD3344_AD_Read(GD30AD3344_Channel_TypeDef CH, GD30AD3344_PGA_TypeDef R
     signed_data = (int16_t)raw_data;
     result = (float)signed_data * ADS118_PGA_SET(Ref) / 32768.0f;
 
-    printf("AD3344 raw=0x%04X, val=%f\r\n", raw_data, result);
-
     return result;
 }
 
+//温度传感器采样100ms调用一次
+void  GD30AD3344Task(void)
+{
+    static u8 s_cnt = 0;
+    float vol = 0;
+    vol = GD30AD3344_AD_Read(GD30AD3344_MUX_AIN0_GND, GD30AD3344_PGA_4V096);
+    s_Voltage[s_cnt] = vol;
+    s_cnt = (s_cnt + 1) % VOLT_LEN;
+}
 
-
-
+//获取温度
+float GD30AD3344_GetTemperature(void)
+{
+    float vol = 0;
+    float temp = 0;
+    float R = 0;
+    vol = GetMedianFloat(s_Voltage, VOLT_LEN); //取有序数组中的中位数
+    R = vol * 1000.0f / 21.1f;
+    temp = TEMP_K * vol + TEMP_B; //取有序数组中的中位数
+    OLED_ShowString(0,0,(u8*)"R:",16);
+    OLED_ShowNum(32,0,(u32)R,3,16);
+    OLED_ShowChar(64,0,'.',16);
+    OLED_ShowNum(80,0,(u32)(R*100)%100,2,16); //显示小数部分，乘以100取整数部分
+    printf("R: %f, vol: %f, temp: %f\r\n", R, vol, temp);
+    return temp;
+}
 
 
 

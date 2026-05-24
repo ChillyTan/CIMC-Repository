@@ -52,18 +52,13 @@ static  void  ConfigLEDGPIO(void);  //配置LED的GPIO
 static  void  ConfigLEDGPIO(void)
 {
   //使能RCU相关时钟
-  rcu_periph_clock_enable(RCU_GPIOB);  //使能GPIOB的时钟
+  rcu_periph_clock_enable(RCU_GPIOE);  //使能GPIOB的时钟
   rcu_periph_clock_enable(RCU_GPIOI);  //使能GPIOI的时钟
 
-  //配置LED1
-  gpio_mode_set(GPIOB, GPIO_MODE_OUTPUT, GPIO_PUPD_PULLUP, GPIO_PIN_5);         //上拉输出
-  gpio_output_options_set(GPIOB, GPIO_OTYPE_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_5); //推挽输出
-  gpio_bit_set(GPIOB, GPIO_PIN_5);                                              //点亮LED1
-
-  //配置LED2
-  gpio_mode_set(GPIOI, GPIO_MODE_OUTPUT, GPIO_PUPD_PULLUP, GPIO_PIN_8);         //上拉输出
-  gpio_output_options_set(GPIOI, GPIO_OTYPE_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_8); //推挽输出
-  gpio_bit_reset(GPIOI, GPIO_PIN_8);                                            //熄灭LED2
+  //配置LED1-4
+  gpio_mode_set(GPIOE, GPIO_MODE_OUTPUT, GPIO_PUPD_PULLUP, GPIO_PIN_7|GPIO_PIN_9|GPIO_PIN_11|GPIO_PIN_13);         //上拉输出
+  gpio_output_options_set(GPIOE, GPIO_OTYPE_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_7|GPIO_PIN_9|GPIO_PIN_11|GPIO_PIN_13); //推挽输出
+  gpio_bit_set(GPIOE, GPIO_PIN_7|GPIO_PIN_9|GPIO_PIN_11|GPIO_PIN_13);                                              //点亮LED1
 }
 
 /*********************************************************************************************************
@@ -102,11 +97,8 @@ void LEDFlicker(unsigned short cnt)
   {
     s_iCnt = 0;                  //重置计数器的计数值为0
 	
-		//LED1状态取反，实现LED1闪烁
-    gpio_bit_write(GPIOB, GPIO_PIN_5, (bit_status)(1 - gpio_output_bit_get(GPIOB, GPIO_PIN_5)));
-
-    //LED2状态取反，实现LED2闪烁
-    gpio_bit_write(GPIOI, GPIO_PIN_8, (bit_status)(1 - gpio_output_bit_get(GPIOI, GPIO_PIN_8)));
+		//LED1-4状态取反，实现LED1闪烁
+    gpio_bit_write(GPIOE, GPIO_PIN_7|GPIO_PIN_9|GPIO_PIN_11|GPIO_PIN_13, (bit_status)(1 - gpio_output_bit_get(GPIOE, GPIO_PIN_7|GPIO_PIN_9|GPIO_PIN_11|GPIO_PIN_13)));
   }
 }
 
