@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470,USE_USB_FS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0;..\App\KeyOne;..\HW\OLED;..\HW\ADC;..\HW\RTC;..\HW\SPI_FLASH;..\HW\AD3344</IncludePath>
+              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0;..\App\BootLoader</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -387,6 +387,11 @@
               <FileName>Main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\App\Main\Main.c</FilePath>
+            </File>
+            <File>
+              <FileName>BootLoader.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\App\BootLoader\BootLoader.c</FilePath>
             </File>
           </Files>
         </Group>

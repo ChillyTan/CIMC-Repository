@@ -8,6 +8,7 @@
 #include "gd30ad3344.h"
 #include "SPI2.h"
 #include "UART0.h"
+#include "OLED.h"
 
 //用电压表标定
 #define TEMP_K  121.134991
@@ -124,7 +125,7 @@ void GD30AD3344_Init(void)
 {
     SPI2_Init(SPI_CK_PL_LOW_PH_2EDGE, SPI_PSC_64);
     ConfigAD3344CS();
-    ad3344_ExtRef();    //配置AIN3作为外部基准源
+    // ad3344_ExtRef();    //配置AIN3作为外部基准源
 
     GD30AD3344_InitStruct.SS         = 0;
     GD30AD3344_InitStruct.MUX        = GD30AD3344_MUX_AIN0_GND;
@@ -191,22 +192,28 @@ void  GD30AD3344Task(void)
 }
 
 //获取温度
+//获取温度
 float GD30AD3344_GetTemperature(void)
 {
     float vol = 0;
     float temp = 0;
     float R = 0;
-    vol = GetMedianFloat(s_Voltage, VOLT_LEN); //取有序数组中的中位数
-    R = vol * 1000.0f / 21.1f;
-    temp = TEMP_K * vol + TEMP_B; //取有序数组中的中位数
+
+    vol = GetMedianFloat(s_Voltage, VOLT_LEN); //取中位数电压(中值滤波)
+
+    //电压转电阻
+    R = 47.823236f * vol + -0.010013f;
+
+    //PT100电阻转温度
+    temp = (R - 100.0f) / 0.385055f;
+
     OLED_ShowString(0,0,(u8*)"R:",16);
     OLED_ShowNum(32,0,(u32)R,3,16);
     OLED_ShowChar(64,0,'.',16);
-    OLED_ShowNum(80,0,(u32)(R*100)%100,2,16); //显示小数部分，乘以100取整数部分
+    OLED_ShowNum(80,0,(u32)(R * 100) % 100,2,16);
     printf("R: %f, vol: %f, temp: %f\r\n", R, vol, temp);
+
     return temp;
 }
-
-
 
 

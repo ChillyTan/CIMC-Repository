@@ -46,3 +46,4 @@
 .\objects\gd30ad3344.o: ..\HW\AD3344\SPI2.h
 .\objects\gd30ad3344.o: ..\HW\UART0\UART0.h
 .\objects\gd30ad3344.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gd30ad3344.o: ..\HW\OLED\OLED.h

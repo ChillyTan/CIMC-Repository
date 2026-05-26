@@ -8,10 +8,40 @@ T = 0;             % 温度，单位 ℃
 R = temp_to_res(T, R0, A, B, C);
 fprintf('温度 %.4f ℃ 对应的电阻为 %.6f Ω\n', T, R);
 
-% 示例2：根据电阻计算温度
-R_meas = 106.7;  % 测得电阻，单位 Ω
-T_calc = res_to_temp(R_meas, R0, A, B, C);
-fprintf('电阻 %.6f Ω 对应的温度为 %.6f ℃\n', R_meas, T_calc);
+% 110.66
+% 112.6
+% 122.9
+% 130.9
+% 138.85
+% 150.2
+% 160.15
+arr_R = [
+81.76
+82.4
+100.1
+106.88
+110.66
+112.6
+122.9
+130.9
+138.85
+150.2
+160.15
+];
+
+for i = 1:length(arr_R)
+    % 示例2：根据电阻计算温度
+    R_meas = arr_R(i);  % 测得电阻，单位 Ω
+    T_calc = res_to_temp(R_meas, R0, A, B, C);
+    T_mode = (R_meas - 100) / 0.385055;
+    fprintf('电阻 %.6f Ω 对应的温度为 %.6f ℃ 简单线性温度为 %.6f ℃\n', R_meas, T_calc, T_mode);
+end
+
+% % 示例2：根据电阻计算温度
+% R_meas = 138.85;  % 测得电阻，单位 Ω
+% T_calc = res_to_temp(R_meas, R0, A, B, C);
+% T_mode = (R_meas - 100) / 0.385055;
+% fprintf('电阻 %.6f Ω 对应的温度为 %.6f ℃ 简单线性温度为 %.6f ℃\n', R_meas, T_calc, T_mode);
 
 
 % ================= 函数区 =================

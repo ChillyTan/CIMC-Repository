@@ -409,7 +409,7 @@ I (D:\Program Files (x86)\ARM\ARMCC\include\stdlib.h)(0x5E53505C)
 I (..\FW\Include\gd32f4xx_exmc.h)(0x62297358)
 I (..\FW\Include\gd32f4xx_ipa.h)(0x62297358)
 I (..\FW\Include\gd32f4xx_tli.h)(0x62297358)
-F (..\HW\AD3344\gd30ad3344.c)(0x6A130819)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\App\Main -I ..\App\DataType -I ..\ARM\SysTick -I ..\ARM\System -I ..\ARM\NVIC -I ..\HW\RCU -I ..\HW\Timer -I ..\App\LED -I ..\HW\UART0 -I ..\App\KeyOne -I ..\HW\OLED -I ..\HW\ADC -I ..\HW\RTC -I ..\HW\SPI_FLASH -I ..\HW\AD3344-I.\RTE\_Target_1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Program Files (x86)\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include"-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd30ad3344.o --omf_browse .\objects\gd30ad3344.crf --depend .\objects\gd30ad3344.d)
+F (..\HW\AD3344\gd30ad3344.c)(0x6A13BAC6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\App\Main -I ..\App\DataType -I ..\ARM\SysTick -I ..\ARM\System -I ..\ARM\NVIC -I ..\HW\RCU -I ..\HW\Timer -I ..\App\LED -I ..\HW\UART0 -I ..\App\KeyOne -I ..\HW\OLED -I ..\HW\ADC -I ..\HW\RTC -I ..\HW\SPI_FLASH -I ..\HW\AD3344-I.\RTE\_Target_1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Program Files (x86)\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include"-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\gd30ad3344.o --omf_browse .\objects\gd30ad3344.crf --depend .\objects\gd30ad3344.d)
 I (..\HW\AD3344\gd30ad3344.h)(0x6A0C80BA)
 I (..\ARM\System\gd32f470x_conf.h)(0x62A3EC7A)
 I (..\FW\Include\gd32f4xx_rcu.h)(0x62297358)
@@ -455,6 +455,7 @@ I (..\App\DataType\DataType.h)(0x627E05E1)
 I (..\HW\AD3344\SPI2.h)(0x6A0092CB)
 I (..\HW\UART0\UART0.h)(0x627E120D)
 I (D:\Program Files (x86)\ARM\ARMCC\include\stdio.h)(0x5E53505C)
+I (..\HW\OLED\OLED.h)(0x69DA00A3)
 F (..\HW\AD3344\SPI2.c)(0x6A097A7B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FW\Include -I ..\App\Main -I ..\App\DataType -I ..\ARM\SysTick -I ..\ARM\System -I ..\ARM\NVIC -I ..\HW\RCU -I ..\HW\Timer -I ..\App\LED -I ..\HW\UART0 -I ..\App\KeyOne -I ..\HW\OLED -I ..\HW\ADC -I ..\HW\RTC -I ..\HW\SPI_FLASH -I ..\HW\AD3344-I.\RTE\_Target_1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Program Files (x86)\ARM\PACK\GigaDevice\GD32F4xx_DFP\3.0.0\Device\F4XX\Include"-D__UVISION_VERSION="530" -D_RTE_ -DGD32F470 -D_RTE_ -DUSE_STDPERIPH_DRIVER -DGD32F470 -DUSE_USB_FS-o .\objects\spi2.o --omf_browse .\objects\spi2.crf --depend .\objects\spi2.d)
 I (..\HW\AD3344\SPI2.h)(0x6A0092CB)
 I (..\ARM\System\gd32f470x_conf.h)(0x62A3EC7A)

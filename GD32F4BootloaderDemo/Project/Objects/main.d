@@ -47,3 +47,6 @@
 .\objects\main.o: ..\ARM\NVIC\NVIC.h
 .\objects\main.o: ..\HW\Timer\Timer.h
 .\objects\main.o: ..\App\DataType\DataType.h
+.\objects\main.o: ..\HW\UART0\UART0.h
+.\objects\main.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: ..\App\BootLoader\BootLoader.h

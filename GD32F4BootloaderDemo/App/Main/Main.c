@@ -24,6 +24,7 @@
 #include "NVIC.h"
 #include "Timer.h"
 #include "UART0.h"
+#include "BootLoader.h"
 
 /*********************************************************************************************************
 *                                              宏定义
@@ -94,6 +95,9 @@ int main(void)
   InitSoftware();   //初始化软件相关函数
 
   printf("Init System has been finished.\r\n" );  //打印系统状态
+
+  // 进入BootLoader模式
+  BootLoaderTask(); // 执行BootLoader任务
   
   while(1)
   {  
