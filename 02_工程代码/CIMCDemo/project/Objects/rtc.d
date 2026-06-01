@@ -1,0 +1,46 @@
+.\objects\rtc.o: ..\HardWare\RTC\RTC.c
+.\objects\rtc.o: ..\HardWare\RTC\RTC.h
+.\objects\rtc.o: ..\HeaderFiles\DataType.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f470x_conf.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\rtc.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\rtc.o: ..\CMSIS\core_cm4.h
+.\objects\rtc.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtc.o: ..\CMSIS\core_cmInstr.h
+.\objects\rtc.o: ..\CMSIS\core_cmFunc.h
+.\objects\rtc.o: ..\CMSIS\core_cm4_simd.h
+.\objects\rtc.o: ..\CMSIS\GD\GD32F4xx\Include\system_gd32f4xx.h
+.\objects\rtc.o: ..\User\gd32f4xx_libopt.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rcu.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_adc.h
+.\objects\rtc.o: ..\CMSIS\GD\GD32F4xx\Include\gd32f4xx.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_can.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_crc.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ctc.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dac.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dbg.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dci.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_dma.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exti.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fmc.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_fwdgt.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_gpio.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_syscfg.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_i2c.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_iref.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_pmu.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_rtc.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_sdio.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_spi.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_timer.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_trng.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_usart.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_wwdgt.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_misc.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_enet.h
+.\objects\rtc.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
+.\objects\rtc.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
+.\objects\rtc.o: ..\HardWare\UART0\UART0.h
+.\objects\rtc.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h

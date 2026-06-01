@@ -1,2 +1,22 @@
 2025工业嵌入式开发资料(官方)/05 相关软件/
 **/05 相关软件/
+
+Objects/
+Listings/
+*.uvguix.*
+*.bak
+*.dep
+*.crf
+*.d
+*.o
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.htm
+*.lst
+*.iex
+*.sct
+DebugConfig/
+JLinkLog.txt
