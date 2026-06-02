@@ -31,6 +31,7 @@
 #include "RTC.h"
 #include "SPI_FLASH.h"
 #include "gd30ad3344.h"
+#include "UART1.h"
 
 /*********************************************************************************************************
 *                                              宏定义
@@ -72,7 +73,7 @@ static  void  InitHardware(void)
   InitTimer();         //初始化Timer模块
   InitSysTick();       //初始化SysTick模块
 	InitLED();           //初始化LED模块
-  InitUART0(115200);   //初始化UART模块
+  InitUART1(115200);   //初始化UART模块
   InitKeyOne();        //初始化按键模块
   InitProcKeyOne();    //初始化按键处理模块
 	OLED_Init();         //初始化OLED模块
