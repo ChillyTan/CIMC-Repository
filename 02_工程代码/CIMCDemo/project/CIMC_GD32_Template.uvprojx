@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\Startup;..\Library\GD32F4xx_standard_peripheral\Include;..\User;..\HeaderFiles;..\Function;..\HardWare\LED;..\CMSIS\GD\GD32F4xx\Include;..\HardWare\AD3344;..\HardWare\Key;..\HardWare\LED;..\HardWare\OLED;..\HardWare\RTC;..\HardWare\SPI_FLASH;..\HardWare\UART0;..\Protocol</IncludePath>
+              <IncludePath>..\CMSIS;..\Startup;..\Library\GD32F4xx_standard_peripheral\Include;..\User;..\HeaderFiles;..\Function;..\HardWare\LED;..\CMSIS\GD\GD32F4xx\Include;..\HardWare\AD3344;..\HardWare\Key;..\HardWare\LED;..\HardWare\OLED;..\HardWare\RTC;..\HardWare\SPI_FLASH;..\HardWare\UART0;..\Protocol\Queue</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -456,7 +456,7 @@
             <File>
               <FileName>Queue.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Protocol\Queue.c</FilePath>
+              <FilePath>..\Protocol\Queue\Queue.c</FilePath>
             </File>
           </Files>
         </Group>

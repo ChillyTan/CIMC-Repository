@@ -130,7 +130,7 @@ static  unsigned char  ReadSendBuf(unsigned char *p)
 static  void  ConfigUART(unsigned int bound)
 {
   rcu_periph_clock_enable(RCU_GPIOA);         //使能GPIOA时钟
-  rcu_periph_clock_enable(RCU_USART0);        //使能串口时钟
+  rcu_periph_clock_enable(RCU_USART1);        //使能串口时钟
 
   //配置TX的GPIO 
 	gpio_af_set(GPIOA, GPIO_AF_7, GPIO_PIN_2);  
@@ -155,7 +155,7 @@ static  void  ConfigUART(unsigned int bound)
   usart_interrupt_enable(USART1, USART_INT_RBNE);       //使能接收缓冲区非空中断
   usart_enable(USART1);                                 //使能串口
   
-  nvic_irq_enable(USART0_IRQn, 0, 0);                   //使能串口中断，设置优先级  
+  nvic_irq_enable(USART1_IRQn, 0, 0);                   //使能串口中断，设置优先级  
   
   s_iUARTTxSts = UART_STATE_OFF;                        //串口发送数据状态设置为未发送数据
 }
@@ -177,8 +177,8 @@ static  void  EnableUARTTx(void)
 }
 
 /*********************************************************************************************************
-* 函数名称：USART0_IRQHandler
-* 函数功能：USART0中断服务函数 
+* 函数名称：USART1_IRQHandler
+* 函数功能：USART1中断服务函数
 * 输入参数：void
 * 输出参数：void
 * 返 回 值：void
@@ -207,7 +207,7 @@ void USART1_IRQHandler(void)
   if(usart_interrupt_flag_get(USART1, USART_INT_FLAG_TBE)!= RESET)      //发送缓冲区空中断
   {                       
     usart_interrupt_flag_clear(USART1, USART_INT_FLAG_TBE);             //清除发送中断标志
-    __NVIC_ClearPendingIRQ(USART1_IRQn);
+    NVIC_ClearPendingIRQ(USART1_IRQn);
                                    
     ReadSendBuf(&uData);                                 //读取发送缓冲区的数据到uData
                                                                     

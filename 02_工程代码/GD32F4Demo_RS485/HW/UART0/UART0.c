@@ -207,7 +207,7 @@ void USART0_IRQHandler(void)
   if(usart_interrupt_flag_get(USART0, USART_INT_FLAG_TBE)!= RESET)      //发送缓冲区空中断
   {                       
     usart_interrupt_flag_clear(USART0, USART_INT_FLAG_TBE);             //清除发送中断标志
-    __NVIC_ClearPendingIRQ(USART0_IRQn);
+    NVIC_ClearPendingIRQ(USART0_IRQn);
                                    
     ReadSendBuf(&uData);                                 //读取发送缓冲区的数据到uData
                                                                     
