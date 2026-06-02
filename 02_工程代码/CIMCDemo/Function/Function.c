@@ -70,6 +70,10 @@ void System_Init(void)
 ************************************************************/
 void UsrFunction(void)
 {
+	System_Init();
+	
+
+
 	while(1)
 	{
 		Proc2msTask();
