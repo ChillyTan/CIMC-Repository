@@ -53,6 +53,6 @@
 .\objects\gd30ad3344.o: ..\HardWare\AD3344\SPI2.h
 .\objects\gd30ad3344.o: ..\HardWare\AD3344\GD30AD3344.h
 .\objects\gd30ad3344.o: ..\HardWare\OLED\OLED.h
-.\objects\gd30ad3344.o: ..\HardWare\UART0\Queue.h
+.\objects\gd30ad3344.o: ..\Protocol\Queue.h
 .\objects\gd30ad3344.o: ..\HardWare\RTC\RTC.h
 .\objects\gd30ad3344.o: ..\HardWare\SPI_FLASH\SPI_FLASH.h

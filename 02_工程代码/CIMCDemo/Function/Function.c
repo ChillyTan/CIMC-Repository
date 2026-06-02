@@ -55,8 +55,19 @@ static void Proc1sTask(void)
 ************************************************************/
 void System_Init(void)
 {
-	InitSysTick();
-	InitLED();
+  SystemInit();        //系统初始化
+  InitRCU();           //初始化RCU模块
+  InitNVIC();          //初始化NVIC模块
+  InitTimer();         //初始化Timer模块
+  InitSysTick();       //初始化SysTick模块
+	InitLED();           //初始化LED模块
+  InitUART0(115200);   //初始化UART模块
+  InitKeyOne();        //初始化按键模块
+  InitProcKeyOne();    //初始化按键处理模块
+	OLED_Init();         //初始化OLED模块
+	RTC_Init();          //初始化RTC模块
+	spi_flash_init();    //初始化SPI_FLASH模块
+	GD30AD3344_Init();	 //初始化AD3344模块
 }
 
 

@@ -53,6 +53,6 @@
 .\objects\systick.o: ..\HardWare\AD3344\SPI2.h
 .\objects\systick.o: ..\HardWare\AD3344\GD30AD3344.h
 .\objects\systick.o: ..\HardWare\OLED\OLED.h
-.\objects\systick.o: ..\HardWare\UART0\Queue.h
+.\objects\systick.o: ..\Protocol\Queue.h
 .\objects\systick.o: ..\HardWare\RTC\RTC.h
 .\objects\systick.o: ..\HardWare\SPI_FLASH\SPI_FLASH.h

@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CMSIS;..\Startup;..\Library\GD32F4xx_standard_peripheral\Include;..\User;..\HeaderFiles;..\Function;..\HardWare\LED;..\CMSIS\GD\GD32F4xx\Include;..\HardWare\AD3344;..\HardWare\Key;..\HardWare\LED;..\HardWare\OLED;..\HardWare\RTC;..\HardWare\SPI_FLASH;..\HardWare\UART0</IncludePath>
+              <IncludePath>..\CMSIS;..\Startup;..\Library\GD32F4xx_standard_peripheral\Include;..\User;..\HeaderFiles;..\Function;..\HardWare\LED;..\CMSIS\GD\GD32F4xx\Include;..\HardWare\AD3344;..\HardWare\Key;..\HardWare\LED;..\HardWare\OLED;..\HardWare\RTC;..\HardWare\SPI_FLASH;..\HardWare\UART0;..\Protocol</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -434,11 +434,6 @@
               <FilePath>..\HardWare\SPI_FLASH\SPI_FLASH.c</FilePath>
             </File>
             <File>
-              <FileName>Queue.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HardWare\UART0\Queue.c</FilePath>
-            </File>
-            <File>
               <FileName>UART0.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HardWare\UART0\UART0.c</FilePath>
@@ -457,6 +452,13 @@
         </Group>
         <Group>
           <GroupName>Protocol</GroupName>
+          <Files>
+            <File>
+              <FileName>Queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Protocol\Queue.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Function</GroupName>

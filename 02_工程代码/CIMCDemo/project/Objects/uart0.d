@@ -42,4 +42,4 @@
 .\objects\uart0.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_exmc.h
 .\objects\uart0.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_ipa.h
 .\objects\uart0.o: ..\Library\GD32F4xx_standard_peripheral\Include\gd32f4xx_tli.h
-.\objects\uart0.o: ..\HardWare\UART0\Queue.h
+.\objects\uart0.o: ..\Protocol\Queue.h

@@ -1,2 +1,2 @@
-.\objects\queue.o: ..\HardWare\UART0\Queue.c
-.\objects\queue.o: ..\HardWare\UART0\Queue.h
+.\objects\queue.o: ..\Protocol\Queue.c
+.\objects\queue.o: ..\Protocol\Queue.h
