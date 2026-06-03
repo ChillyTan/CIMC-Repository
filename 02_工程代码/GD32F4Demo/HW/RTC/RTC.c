@@ -1,6 +1,6 @@
 #include "RTC.h"
 #include "gd32f470x_conf.h"
-#include "UART0.h"
+#include "UART1.h"
 
 #define RTC_CLOCK_SOURCE_LXTAL
 #define BKP_VALUE    0x32F0
@@ -265,8 +265,8 @@ uint8_t usart_input_threshold(uint32_t value)
     uint32_t tmp[2] = {0, 0};
 
     while (index < 2){
-        while (RESET == usart_flag_get(USART0, USART_FLAG_RBNE));
-        tmp[index++] = usart_data_receive(USART0);
+        while (RESET == usart_flag_get(USART1, USART_FLAG_RBNE));
+        tmp[index++] = usart_data_receive(USART1);
         if ((tmp[index - 1] < 0x30) || (tmp[index - 1] > 0x39)){
             printf("\n\r please input a valid number between 0 and 9 \n\r");
             index--;

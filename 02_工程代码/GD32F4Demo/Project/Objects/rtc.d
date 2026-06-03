@@ -43,5 +43,5 @@
 .\objects\rtc.o: ..\FW\Include\gd32f4xx_exmc.h
 .\objects\rtc.o: ..\FW\Include\gd32f4xx_ipa.h
 .\objects\rtc.o: ..\FW\Include\gd32f4xx_tli.h
-.\objects\rtc.o: ..\HW\UART0\UART0.h
+.\objects\rtc.o: ..\HW\UART1\UART1.h
 .\objects\rtc.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h

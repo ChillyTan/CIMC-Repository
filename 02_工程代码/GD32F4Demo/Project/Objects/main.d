@@ -48,7 +48,7 @@
 .\objects\main.o: ..\HW\Timer\Timer.h
 .\objects\main.o: ..\App\DataType\DataType.h
 .\objects\main.o: ..\App\LED\LED.h
-.\objects\main.o: ..\HW\UART0\UART0.h
+.\objects\main.o: ..\HW\UART1\UART1.h
 .\objects\main.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: ..\App\KeyOne\KeyOne.h
 .\objects\main.o: ..\App\KeyOne\ProcKeyOne.h
@@ -56,3 +56,4 @@
 .\objects\main.o: ..\HW\RTC\RTC.h
 .\objects\main.o: ..\HW\SPI_FLASH\SPI_FLASH.h
 .\objects\main.o: ..\HW\AD3344\gd30ad3344.h
+.\objects\main.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\string.h

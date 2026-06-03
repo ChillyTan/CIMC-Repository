@@ -7,8 +7,9 @@
 
 #include "gd30ad3344.h"
 #include "SPI2.h"
-#include "UART0.h"
+#include "UART1.h"
 #include "OLED.h"
+#include "SysTick.h"
 
 //用电压表标定
 #define TEMP_K  121.134991
@@ -27,7 +28,7 @@ static float s_Voltage[VOLT_LEN] = {0};     //ADC采样电压缓存数组
 static void ConfigAD3344CS(void);
 static u16  AD3344Transfer16(u16 half_word);
 static void ad3344_ExtRef(void);
-static void insertSort(float data, float* buf, u8 len);
+static float GetMedianFloat(float *buf, u8 len);
 
 /************************* 内部函数定义 *************************/
 static void ConfigAD3344CS(void)
@@ -48,7 +49,7 @@ static u16 AD3344Transfer16(u16 half_word)
 }
 
 //配置AIN3作为外部参考
-void ad3344_ExtRef(void)
+static void ad3344_ExtRef(void)
 {
    uint16_t addr,val,rdval;
    uint16_t tx_data;

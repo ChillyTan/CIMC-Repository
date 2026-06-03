@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470,USE_USB_FS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\HW\UART0;..\App\KeyOne;..\HW\OLED;..\HW\ADC;..\HW\RTC;..\HW\SPI_FLASH;..\HW\AD3344</IncludePath>
+              <IncludePath>..\FW\Include;..\App\Main;..\App\DataType;..\ARM\SysTick;..\ARM\System;..\ARM\NVIC;..\HW\RCU;..\HW\Timer;..\App\LED;..\App\KeyOne;..\HW\OLED;..\HW\ADC;..\HW\RTC;..\HW\SPI_FLASH;..\HW\AD3344;..\HW\UART1</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -422,16 +422,6 @@
               <FilePath>..\HW\RCU\RCU.c</FilePath>
             </File>
             <File>
-              <FileName>Queue.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HW\UART0\Queue.c</FilePath>
-            </File>
-            <File>
-              <FileName>UART0.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HW\UART0\UART0.c</FilePath>
-            </File>
-            <File>
               <FileName>OLED.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HW\OLED\OLED.c</FilePath>
@@ -455,6 +445,16 @@
               <FileName>SPI2.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HW\AD3344\SPI2.c</FilePath>
+            </File>
+            <File>
+              <FileName>UART1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\UART1\UART1.c</FilePath>
+            </File>
+            <File>
+              <FileName>Queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HW\UART1\Queue.c</FilePath>
             </File>
           </Files>
         </Group>

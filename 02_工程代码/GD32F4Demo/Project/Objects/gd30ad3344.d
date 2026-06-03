@@ -44,6 +44,7 @@
 .\objects\gd30ad3344.o: ..\FW\Include\gd32f4xx_tli.h
 .\objects\gd30ad3344.o: ..\App\DataType\DataType.h
 .\objects\gd30ad3344.o: ..\HW\AD3344\SPI2.h
-.\objects\gd30ad3344.o: ..\HW\UART0\UART0.h
+.\objects\gd30ad3344.o: ..\HW\UART1\UART1.h
 .\objects\gd30ad3344.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\gd30ad3344.o: ..\HW\OLED\OLED.h
+.\objects\gd30ad3344.o: ..\ARM\SysTick\SysTick.h
