@@ -139,12 +139,12 @@ static  void  Proc2msTask(void)
       s_Cnt50++;
     }
     
-    // while(ReadUART0(&recData, 1))
-    // {
-    //   recData++;
-     
-    //   WriteUART0(&recData, 1);
-    // }
+//    while(ReadUART0(&recData, 1))
+//    {
+//      recData++;
+//     
+//      WriteUART0(&recData, 1);
+//    }
 
     Clr2msFlag();   //清除2ms标志位
   }

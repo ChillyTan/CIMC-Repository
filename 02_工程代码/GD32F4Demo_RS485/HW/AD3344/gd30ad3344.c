@@ -7,7 +7,7 @@
 
 #include "gd30ad3344.h"
 #include "SPI2.h"
-#include "UART0.h"
+#include "UART1.h"
 #include "OLED.h"
 #include "SysTick.h"
 

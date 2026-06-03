@@ -24,14 +24,13 @@
 #include "NVIC.h"
 #include "Timer.h"
 #include "LED.h"
-#include "UART0.h"
+#include "UART1.h"
 #include "KeyOne.h"
 #include "ProcKeyOne.h"
 #include "OLED.h"
 #include "RTC.h"
 #include "SPI_FLASH.h"
 #include "gd30ad3344.h"
-#include "UART1.h"
 
 /*********************************************************************************************************
 *                                              宏定义

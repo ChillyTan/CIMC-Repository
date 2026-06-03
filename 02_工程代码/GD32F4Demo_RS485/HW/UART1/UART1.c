@@ -152,7 +152,6 @@ static  void  ConfigUART(unsigned int bound)
   usart_transmit_config(USART1, USART_TRANSMIT_ENABLE); //使能发送
   
   usart_interrupt_enable(USART1, USART_INT_RBNE);       //使能接收缓冲区非空中断
-  usart_interrupt_enable(USART1, USART_INT_RBNE);       //使能接收缓冲区非空中断
   usart_enable(USART1);                                 //使能串口
   
   nvic_irq_enable(USART1_IRQn, 0, 0);                   //使能串口中断，设置优先级  
@@ -191,7 +190,7 @@ void USART1_IRQHandler(void)
 
   if(usart_interrupt_flag_get(USART1, USART_INT_FLAG_RBNE) != RESET)    //接收缓冲区非空中断
   {                                                         
-    usart_interrupt_flag_clear(USART1, USART_INT_FLAG_RBNE);            //清除USART0中断挂起
+    usart_interrupt_flag_clear(USART1, USART_INT_FLAG_RBNE);            //清除USART1中断挂起
     uData = usart_data_receive(USART1);                                 //将USART0接收到的数据保存到uData
                                                           
     WriteReceiveBuf(uData);                                             //将接收到的数据写入接收缓冲区                                 
