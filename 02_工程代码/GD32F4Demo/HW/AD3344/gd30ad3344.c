@@ -126,7 +126,7 @@ void GD30AD3344_Init(void)
 {
     SPI2_Init(SPI_CK_PL_LOW_PH_2EDGE, SPI_PSC_64);
     ConfigAD3344CS();
-    // ad3344_ExtRef();    //配置AIN3作为外部基准源
+    ad3344_ExtRef();    //配置AIN3作为外部基准源
 
     GD30AD3344_InitStruct.SS         = 0;
     GD30AD3344_InitStruct.MUX        = GD30AD3344_MUX_AIN0_GND;
